@@ -1,16 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>NovaSox</title>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
 <style>
 
@@ -18,141 +13,106 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family:Arial, Helvetica, sans-serif;
+font-family:Arial,Helvetica,sans-serif;
 }
 
 body{
 
-background:linear-gradient(180deg,#111,#1d1d1d,#000);
-
+background:linear-gradient(135deg,#101010,#2b2b2b);
 display:flex;
-
 justify-content:center;
-
 align-items:center;
-
 min-height:100vh;
-
 padding:20px;
 
 }
 
 .card{
 
-width:360px;
-
-background:white;
-
-border-radius:25px;
-
-padding:35px 25px;
-
+background:#fff;
+width:370px;
+border-radius:28px;
+padding:35px;
 text-align:center;
-
-box-shadow:0 15px 40px rgba(0,0,0,.35);
+box-shadow:0 15px 35px rgba(0,0,0,.30);
 
 }
 
 .logo{
 
-width:150px;
-
+width:145px;
 margin-bottom:15px;
 
 }
 
 h1{
 
+font-size:46px;
 color:#222;
-
-font-size:30px;
-
-margin-bottom:8px;
+margin-bottom:10px;
 
 }
 
 .descripcion{
 
+font-size:18px;
 color:#666;
-
-font-size:15px;
-
-margin-bottom:30px;
-
-line-height:22px;
+margin-bottom:28px;
 
 }
 
-.btn{
+.boton{
 
 display:flex;
-
 align-items:center;
-
-justify-content:center;
-
-gap:12px;
-
 text-decoration:none;
-
-padding:16px;
-
-margin:16px 0;
-
-border-radius:14px;
-
-font-size:18px;
-
-font-weight:bold;
-
-transition:.25s;
-
-}
-
-.btn:hover{
-
-transform:translateY(-3px);
-
-box-shadow:0 8px 18px rgba(0,0,0,.20);
-
-}
-
-.btn i{
-
+margin:18px 0;
+padding:16px 18px;
+border-radius:16px;
 font-size:22px;
+font-weight:bold;
+transition:.25s;
+}
+
+.boton:hover{
+
+transform:scale(1.03);
+
+}
+
+.icono{
+
+width:48px;
+height:48px;
+margin-right:18px;
 
 }
 
 .ml{
 
 background:#FFE600;
-
-color:#333;
+color:#222;
 
 }
 
 .tiktok{
 
 background:#000;
-
-color:white;
+color:#fff;
 
 }
 
 .whatsapp{
 
 background:#25D366;
-
-color:white;
+color:#fff;
 
 }
 
 .footer{
 
 margin-top:28px;
-
-font-size:13px;
-
+font-size:14px;
 color:#777;
 
 }
@@ -165,51 +125,48 @@ color:#777;
 
 <div class="card">
 
-<img src="logo.png" class="logo" alt="NovaSox">
+<img src="logo.png" class="logo">
 
 <h1>NovaSox</h1>
 
-<p class="descripcion">
-
-🧦 Calcetas Premium<br>
-
+<div class="descripcion">
+Calcetas Premium<br>
 Envíos a todo México 🇲🇽
+</div>
 
-</p>
-
-<a class="btn ml"
+<a class="boton ml"
 href="https://www.mercadolibre.com.mx/pagina/noiv#from=share_eshop"
 target="_blank">
 
-<i class="fa-solid fa-store"></i>
+<img src="mercadolibre.png" class="icono">
 
-Comprar en Mercado Libre
+<span>Comprar en Mercado Libre</span>
 
 </a>
 
-<a class="btn tiktok"
+<a class="boton tiktok"
 href="https://vt.tiktok.com/ZSC6rjF1n/?page=TikTokShop&utm_campaign=client_share&utm_source=more&share_app_id=1233"
 target="_blank">
 
-<i class="fa-brands fa-tiktok"></i>
+<img src="tiktok.png" class="icono">
 
-Comprar en TikTok Shop
+<span>Comprar en TikTok Shop</span>
 
 </a>
 
-<a class="btn whatsapp"
+<a class="boton whatsapp"
 href="https://wa.me/525581212447?text=Hola%20NovaSox,%20me%20interesan%20sus%20productos."
 target="_blank">
 
-<i class="fa-brands fa-whatsapp"></i>
+<img src="whatsapp.png" class="icono">
 
-Enviar WhatsApp
+<span>WhatsApp</span>
 
 </a>
 
 <div class="footer">
 
-⭐ Gracias por apoyar a NovaSox ⭐
+Gracias por apoyar a <b>NovaSox</b> ❤️
 
 </div>
 
