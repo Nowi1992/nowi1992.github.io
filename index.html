@@ -4,125 +4,156 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Calcetas y Tazas Personalizadas</title>
+<title>NovaSox | Calcetas Premium y Tazas Personalizadas</title>
 
 <style>
 
 *{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,Helvetica,sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 body{
 
-background:linear-gradient(135deg,#111,#2b2b2b);
-display:flex;
-justify-content:center;
-align-items:center;
-min-height:100vh;
-padding:20px;
+    background:linear-gradient(135deg,#111,#2f2f2f);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:25px;
 
 }
 
 .card{
 
-width:390px;
-background:white;
-border-radius:28px;
-padding:35px;
-text-align:center;
-box-shadow:0 20px 40px rgba(0,0,0,.35);
+    width:420px;
+    max-width:95%;
+    background:#fff;
+    border-radius:30px;
+    overflow:hidden;
+    box-shadow:0 25px 45px rgba(0,0,0,.35);
+
+}
+
+.header{
+
+    background:linear-gradient(135deg,#000,#3a3a3a);
+    text-align:center;
+    padding:35px 25px;
 
 }
 
 .logo{
 
-width:150px;
-margin-bottom:20px;
+    width:170px;
+    margin-bottom:20px;
 
 }
 
-h1{
+.header h1{
 
-font-size:40px;
-color:#222;
+    color:#fff;
+    font-size:38px;
+    margin-bottom:8px;
 
 }
 
-h2{
+.header h2{
 
-font-size:26px;
-color:#C79A1B;
-margin-top:5px;
-margin-bottom:20px;
+    color:#D4AF37;
+    font-size:25px;
+    font-weight:normal;
+
+}
+
+.contenido{
+
+    padding:30px;
 
 }
 
 .descripcion{
 
-font-size:18px;
-color:#666;
-line-height:1.6;
-margin-bottom:30px;
+    text-align:center;
+    color:#666;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:30px;
 
 }
 
 .boton{
 
-display:flex;
-align-items:center;
-text-decoration:none;
-padding:18px 20px;
-border-radius:18px;
-margin:18px 0;
-font-size:22px;
-font-weight:bold;
-transition:.25s;
+    display:flex;
+    align-items:center;
+    text-decoration:none;
+    border-radius:20px;
+    padding:18px;
+    margin-bottom:18px;
+    transition:.3s;
+    font-size:22px;
+    font-weight:bold;
+    box-shadow:0 10px 20px rgba(0,0,0,.12);
 
 }
 
 .boton:hover{
 
-transform:translateY(-3px);
+    transform:translateY(-4px);
 
 }
 
 .icono{
 
-width:60px;
-height:60px;
-margin-right:18px;
+    width:62px;
+    height:62px;
+    margin-right:18px;
 
 }
 
 .ml{
 
-background:#FFE600;
-color:#222;
+    background:#FFE600;
+    color:#222;
 
 }
 
 .tiktok{
 
-background:#111;
-color:white;
+    background:#000;
+    color:#fff;
 
 }
 
 .whatsapp{
 
-background:#25D366;
-color:white;
+    background:#25D366;
+    color:white;
+
+}
+
+.texto{
+
+    flex:1;
+
+}
+
+.flecha{
+
+    font-size:28px;
 
 }
 
 .footer{
 
-margin-top:25px;
-font-size:15px;
-color:#777;
+    text-align:center;
+    padding:25px;
+    color:#777;
+    font-size:15px;
+    border-top:1px solid #eee;
+    line-height:1.7;
 
 }
 
@@ -134,16 +165,23 @@ color:#777;
 
 <div class="card">
 
-<img src="logo.png" class="logo">
+<div class="header">
 
-<h1>🧦 Calcetas</h1>
+<img src="logo.png" class="logo" alt="NovaSox">
 
-<h2>& Tazas Personalizadas</h2>
+<h1>🧦 Calcetas Premium</h1>
+
+<h2>☕ Tazas Personalizadas</h2>
+
+</div>
+
+<div class="contenido">
 
 <div class="descripcion">
 
-Calidad Premium<br>
-Envíos a todo México 🇲🇽
+Diseños exclusivos para regalo.<br>
+
+Calidad Premium • Envíos a todo México 🇲🇽
 
 </div>
 
@@ -153,7 +191,11 @@ target="_blank">
 
 <img src="mercadolibre.png" class="icono">
 
-<span>Comprar en Mercado Libre</span>
+<div class="texto">
+Comprar en Mercado Libre
+</div>
+
+<div class="flecha">→</div>
 
 </a>
 
@@ -163,7 +205,11 @@ target="_blank">
 
 <img src="tiktok.png" class="icono">
 
-<span>Comprar en TikTok Shop</span>
+<div class="texto">
+Comprar en TikTok Shop
+</div>
+
+<div class="flecha">→</div>
 
 </a>
 
@@ -173,13 +219,21 @@ target="_blank">
 
 <img src="whatsapp.png" class="icono">
 
-<span>Enviar WhatsApp</span>
+<div class="texto">
+Cotizar por WhatsApp
+</div>
+
+<div class="flecha">→</div>
 
 </a>
 
+</div>
+
 <div class="footer">
 
-⭐ Gracias por apoyar nuestro emprendimiento ⭐
+⭐ Gracias por tu preferencia ⭐<br>
+
+<b>NovaSox</b>
 
 </div>
 
