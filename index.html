@@ -1,159 +1,217 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>NovaSox | Calcetas Premium y Tazas Personalizadas</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>NovaSox</title>
 
 <style>
 
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial, Helvetica, sans-serif;
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
 }
 
 body{
 
-    background:linear-gradient(135deg,#111,#2f2f2f);
-    min-height:100vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    padding:25px;
+background:linear-gradient(135deg,#0b0b0b,#2c2c2c);
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+min-height:100vh;
+
+padding:25px;
 
 }
 
 .card{
 
-    width:420px;
-    max-width:95%;
-    background:#fff;
-    border-radius:30px;
-    overflow:hidden;
-    box-shadow:0 25px 45px rgba(0,0,0,.35);
+width:430px;
+max-width:95%;
+
+background:white;
+
+border-radius:30px;
+
+overflow:hidden;
+
+box-shadow:0 25px 45px rgba(0,0,0,.35);
 
 }
 
 .header{
 
-    background:linear-gradient(135deg,#000,#3a3a3a);
-    text-align:center;
-    padding:35px 25px;
+padding:35px;
+
+text-align:center;
+
+background:linear-gradient(180deg,#ffffff,#f5f5f5);
 
 }
 
 .logo{
 
-    width:170px;
-    margin-bottom:20px;
+width:180px;
+
+margin-bottom:20px;
 
 }
 
-.header h1{
+h1{
 
-    color:#fff;
-    font-size:38px;
-    margin-bottom:8px;
+font-size:42px;
 
-}
+color:#222;
 
-.header h2{
-
-    color:#D4AF37;
-    font-size:25px;
-    font-weight:normal;
+margin-bottom:8px;
 
 }
 
-.contenido{
+h2{
 
-    padding:30px;
+font-size:30px;
+
+color:#c69b2d;
+
+font-weight:600;
+
+margin-bottom:20px;
 
 }
 
 .descripcion{
 
-    text-align:center;
-    color:#666;
-    font-size:18px;
-    line-height:1.6;
-    margin-bottom:30px;
+font-size:18px;
+
+color:#666;
+
+line-height:1.6;
+
+}
+
+.botones{
+
+padding:30px;
 
 }
 
 .boton{
 
-    display:flex;
-    align-items:center;
-    text-decoration:none;
-    border-radius:20px;
-    padding:18px;
-    margin-bottom:18px;
-    transition:.3s;
-    font-size:22px;
-    font-weight:bold;
-    box-shadow:0 10px 20px rgba(0,0,0,.12);
+display:flex;
+
+align-items:center;
+
+text-decoration:none;
+
+padding:18px 20px;
+
+margin-bottom:18px;
+
+border-radius:20px;
+
+font-size:23px;
+
+font-weight:bold;
+
+transition:.3s;
+
+box-shadow:0 10px 20px rgba(0,0,0,.15);
 
 }
 
 .boton:hover{
 
-    transform:translateY(-4px);
+transform:translateY(-4px);
 
 }
 
 .icono{
 
-    width:62px;
-    height:62px;
-    margin-right:18px;
+width:64px;
 
-}
+height:64px;
 
-.ml{
-
-    background:#FFE600;
-    color:#222;
-
-}
-
-.tiktok{
-
-    background:#000;
-    color:#fff;
-
-}
-
-.whatsapp{
-
-    background:#25D366;
-    color:white;
+margin-right:20px;
 
 }
 
 .texto{
 
-    flex:1;
+flex:1;
 
 }
 
 .flecha{
 
-    font-size:28px;
+font-size:28px;
+
+}
+
+.ml{
+
+background:#FFE600;
+
+color:#222;
+
+}
+
+.tiktok{
+
+background:#111;
+
+color:white;
+
+}
+
+.whatsapp{
+
+background:#25D366;
+
+color:white;
+
+}
+
+.info{
+
+padding:0 35px 30px;
+
+}
+
+.item{
+
+display:flex;
+
+align-items:center;
+
+margin:12px 0;
+
+font-size:18px;
+
+color:#555;
 
 }
 
 .footer{
 
-    text-align:center;
-    padding:25px;
-    color:#777;
-    font-size:15px;
-    border-top:1px solid #eee;
-    line-height:1.7;
+text-align:center;
+
+padding:25px;
+
+font-size:15px;
+
+color:#777;
+
+border-top:1px solid #eee;
+
+line-height:1.7;
 
 }
 
@@ -167,32 +225,38 @@ body{
 
 <div class="header">
 
-<img src="logo.png" class="logo" alt="NovaSox">
+<img src="logo.png" class="logo">
 
 <h1>🧦 Calcetas Premium</h1>
 
 <h2>☕ Tazas Personalizadas</h2>
 
-</div>
-
-<div class="contenido">
-
 <div class="descripcion">
 
-Diseños exclusivos para regalo.<br>
+Diseños exclusivos<br>
 
-Calidad Premium • Envíos a todo México 🇲🇽
+Calidad Premium<br>
+
+Envíos a todo México 🇲🇽
 
 </div>
 
+</div>
+
+<div class="botones">
+
 <a class="boton ml"
+
 href="https://www.mercadolibre.com.mx/pagina/noiv#from=share_eshop"
+
 target="_blank">
 
 <img src="mercadolibre.png" class="icono">
 
 <div class="texto">
+
 Comprar en Mercado Libre
+
 </div>
 
 <div class="flecha">→</div>
@@ -200,13 +264,17 @@ Comprar en Mercado Libre
 </a>
 
 <a class="boton tiktok"
+
 href="https://vt.tiktok.com/ZSC6rjF1n/?page=TikTokShop&utm_campaign=client_share&utm_source=more&share_app_id=1233"
+
 target="_blank">
 
 <img src="tiktok.png" class="icono">
 
 <div class="texto">
+
 Comprar en TikTok Shop
+
 </div>
 
 <div class="flecha">→</div>
@@ -214,13 +282,17 @@ Comprar en TikTok Shop
 </a>
 
 <a class="boton whatsapp"
+
 href="https://wa.me/525581212447?text=Hola,%20me%20interesan%20sus%20productos."
+
 target="_blank">
 
 <img src="whatsapp.png" class="icono">
 
 <div class="texto">
-Cotizar por WhatsApp
+
+Cotiza por WhatsApp
+
 </div>
 
 <div class="flecha">→</div>
@@ -229,9 +301,21 @@ Cotizar por WhatsApp
 
 </div>
 
+<div class="info">
+
+<div class="item">⭐ Productos de calidad</div>
+
+<div class="item">🚚 Envíos a todo México</div>
+
+<div class="item">🔒 Compra segura</div>
+
+</div>
+
 <div class="footer">
 
-⭐ Gracias por tu preferencia ⭐<br>
+❤️ Gracias por tu preferencia ❤️
+
+<br>
 
 <b>NovaSox</b>
 
@@ -240,4 +324,5 @@ Cotizar por WhatsApp
 </div>
 
 </body>
+
 </html>
