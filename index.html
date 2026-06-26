@@ -1,210 +1,79 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-
 <meta charset="UTF-8">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>NOWI</title>
+<title>NovaSox</title>
 
 <style>
-
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-}
-
 body{
-
-font-family:Arial,Helvetica,sans-serif;
-
-background:
-radial-gradient(circle at top,#2b2b2b 0%,#111 35%,#000 100%);
-
-display:flex;
-
-justify-content:center;
-
-align-items:center;
-
-height:100vh;
-
-color:white;
-
-overflow:hidden;
-
+    margin:0;
+    font-family:Arial,Helvetica,sans-serif;
+    background:#f4f4f4;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
 }
 
 .card{
-
-width:380px;
-
-background:rgba(255,255,255,.05);
-
-backdrop-filter:blur(18px);
-
-border:1px solid rgba(255,255,255,.08);
-
-border-radius:30px;
-
-padding:35px;
-
-text-align:center;
-
-box-shadow:
-0 0 60px rgba(255,215,0,.08);
-
-animation:fade .8s ease;
-
-}
-
-@keyframes fade{
-
-from{
-
-opacity:0;
-
-transform:translateY(25px);
-
-}
-
-to{
-
-opacity:1;
-
-transform:translateY(0);
-
-}
-
+    background:white;
+    width:340px;
+    border-radius:20px;
+    padding:30px;
+    text-align:center;
+    box-shadow:0 8px 25px rgba(0,0,0,.15);
 }
 
 .logo{
-
-width:230px;
-
-display:block;
-
-margin:auto;
-
-margin-bottom:20px;
-
-filter:drop-shadow(0 0 18px rgba(255,215,0,.25));
-
+    width:120px;
+    margin-bottom:15px;
 }
 
-h2{
-
-font-size:33px;
-
-letter-spacing:3px;
-
-margin-bottom:10px;
-
+h1{
+    margin:10px 0;
+    color:#222;
 }
 
-.sub{
-
-font-size:23px;
-
-font-weight:600;
-
-margin-bottom:12px;
-
-color:white;
-
-}
-
-.desc{
-
-font-size:17px;
-
-color:#d6d6d6;
-
-margin-bottom:35px;
-
-line-height:28px;
-
+p{
+    color:#666;
+    margin-bottom:30px;
 }
 
 .btn{
-
-display:flex;
-
-align-items:center;
-
-justify-content:center;
-
-gap:15px;
-
-height:62px;
-
-border-radius:18px;
-
-text-decoration:none;
-
-font-weight:bold;
-
-font-size:20px;
-
-margin:18px 0;
-
-transition:.25s;
-
+    display:block;
+    text-decoration:none;
+    color:white;
+    padding:15px;
+    margin:15px 0;
+    border-radius:12px;
+    font-size:18px;
+    font-weight:bold;
+    transition:.3s;
 }
 
 .btn:hover{
-
-transform:translateY(-4px);
-
-}
-
-.icon{
-
-width:30px;
-
-height:30px;
-
+    transform:scale(1.03);
 }
 
 .ml{
-
-background:#FFD400;
-
-color:#333;
-
+    background:#FFE600;
+    color:#333;
 }
 
 .tiktok{
-
-background:#111;
-
-border:2px solid #31F3FF;
-
-color:white;
-
+    background:#000;
 }
 
 .whatsapp{
-
-background:#25D366;
-
-color:white;
-
+    background:#25D366;
 }
 
 .footer{
-
-margin-top:30px;
-
-font-size:14px;
-
-opacity:.6;
-
+    margin-top:25px;
+    font-size:12px;
+    color:#999;
 }
-
 </style>
 
 </head>
@@ -213,70 +82,35 @@ opacity:.6;
 
 <div class="card">
 
-<img src="logo.png" class="logo">
+<img src="logo.png" class="logo" alt="NovaSox">
 
-<div class="sub">
+<h1>NovaSox</h1>
 
-Calcetas y Tazas Personalizadas
-
-</div>
-
-<div class="desc">
-
-🧦 Calcetas Premium │ ☕ Tazas Personalizadas
-
-</div>
+<p>¡Compra nuestros productos en la plataforma que prefieras!</p>
 
 <a class="btn ml"
-
 href="https://www.mercadolibre.com.mx/pagina/noiv#from=share_eshop"
-
 target="_blank">
-
-<img src="mercadolibre.png"
-
-class="icon">
-
-Ver catálogo
-
+🛒 Mercado Libre
 </a>
 
 <a class="btn tiktok"
-
-href="https://www.tiktok.com/@novasox5"
-
+href="https://vt.tiktok.com/ZSC6rjF1n/?page=TikTokShop&utm_campaign=client_share&utm_source=more&share_app_id=1233"
 target="_blank">
-
-<img src="tiktok.png"
-
-class="icon">
-
-Sígueme en TikTok
-
+🛍️ TikTok Shop
 </a>
 
 <a class="btn whatsapp"
-
-href="https://wa.me/525581212447?text=Hola%20NOVASOX,%20vi%20tu%20catálogo."
-
+href="https://wa.me/TU_NUMERO"
 target="_blank">
-
-<img src="whatsapp.png"
-
-class="icon">
-
-Escríbeme por WhatsApp
-
+💬 WhatsApp
 </a>
 
 <div class="footer">
-
-© NOWI
-
+Gracias por tu preferencia ❤️
 </div>
 
 </div>
 
 </body>
-
 </html>
